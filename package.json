@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-bootstrap-sassy",
-  "version": "0.5.8",
+  "version": "0.6.0",
   "description": "Bootstrap for SASS without any other cruft.",
   "directories": {
     "doc": "doc",
@@ -8,8 +8,7 @@
   },
   "scripts": {
     "build": "ember build",
-    "lint:js":
-      "eslint ./*.js addon addon-test-support app config lib server test-support tests",
+    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "start": "ember serve",
     "test:glyphicon": "ember build && node ./node-tests/glyphicon-test.js",
     "test": "ember try:each && npm run test:glyphicon"
@@ -36,7 +35,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
-    "ember-cli": "~2.18.0",
+    "ember-cli": "^3.26.1",
     "ember-cli-content-security-policy": "1.0.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
@@ -52,10 +51,11 @@
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
-    "ember-source": "~2.18.0",
+    "ember-source": "~3.25.1",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^5.2.1",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "sass": "^1.63.6"
   },
   "keywords": [
     "ember-addon",
